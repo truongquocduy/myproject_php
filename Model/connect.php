@@ -4,9 +4,9 @@ class connect
 	var $db=null;
 	public function __construct() 
 	{
-		$dsn='mysql:host=localhost;dbname=school';
-		$user='root';
-		$pass='';
+		$dsn='mysql:host=sql12.freesqldatabase.com;dbname=sql12537854';
+		$user='sql12537854';
+		$pass='4vsTQn4qTf';
 		$this->db=new PDO($dsn,$user,$pass,array(PDO::MYSQL_ATTR_INIT_COMMAND=>"SET NAMES utf8"));
 	}
 //	https://megacode.vn/files/view/php-phuong-thuc-getinstance-la-gi-va-tai-sao-dung-getinstance-4922.html
